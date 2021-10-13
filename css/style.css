@@ -240,9 +240,9 @@ img {
   background-position: center;
   background-color: var(--bg-white-color);
 }
-.antena::before {
-  background-image: url(../images/svg/antenna\ 1.svg);
-}
+/* .antena::before {
+  background-image: url(../images/svg/symbol-defs.svg#icon-antenna);
+} */
 .clock::before {
   background-image: url(../images/svg/clock\ 1.svg);
 }
@@ -333,6 +333,18 @@ img {
 }
 .clients-item {
 }
+.clients-link {
+  display: block;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.clients-icon {
+  width: 100%;
+  height: 100%;
+}
+
 /* футер--------------------------------------------------- */
 .page-footer {
   padding: 60px 0;
