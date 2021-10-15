@@ -67,9 +67,7 @@ img {
   text-align: center;
   color: var(--title-text-color);
 }
-.current {
-  color: var(--accent-color);
-}
+
 /* шапка-----------*/
 .header {
   border-bottom: 1px solid #eeeeee;
@@ -120,6 +118,9 @@ img {
 }
 .nav-link:hover,
 .nav-link:focus {
+  color: var(--accent-color);
+}
+.current {
   color: var(--accent-color);
 }
 /* почта+телефон -----------------------------*/
