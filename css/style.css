@@ -137,32 +137,35 @@ img {
 .nav-contacts .contacts-item + .contacts-item {
   margin-left: 50px;
 }
-
+/* .contacts-container {
+  display: flex;
+} */
 .contacts-link {
-  display: inline-flex;
-
+  display: flex;
   color: var(--main-text-color);
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0.03em;
 }
-.contacts-link:hover,
-.contacts-link:focus {
+.hover-link:hover,
+.hover-link:focus {
+  fill: var(--accent-color);
   color: var(--accent-color);
+}
+.icon-mail {
+  fill: var(--main-text-color);
+  margin-right: 10px;
 }
 .icon-mail::before {
   content: "";
-  width: 16px;
-  height: 12px;
+}
+
+.icon-tel {
+  fill: var(--main-text-color);
   margin-right: 10px;
-  background-image: url(../images/svg/envelope.svg);
 }
 .icon-tel::before {
   content: "";
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  background-image: url(../images/svg/smartphone.svg);
 }
 
 /* герой --------------------------------------*/
@@ -500,6 +503,8 @@ img {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+}
+.portfolio-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
