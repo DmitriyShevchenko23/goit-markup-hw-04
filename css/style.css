@@ -355,7 +355,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 172px;
-  height: 90px;
+  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
@@ -396,7 +396,6 @@ img {
 }
 .address-list {
   display: inline-block;
-  margin-right: 70px;
 }
 .address-list .address-item + .address-item {
   margin-top: 9px;
